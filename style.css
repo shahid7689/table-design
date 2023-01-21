@@ -1,0 +1,40 @@
+table{
+    box-shadow: 10px 10px 10px 10px yellow;
+    background-color: aqua;
+    border: 4px solid black;
+    border-spacing: 10px;
+    /* border-collapse: collapse; */
+    width: 70%;
+    margin: auto;
+}
+
+td,th{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+tr{
+    background-color: brown;
+    color: white;
+}
+
+td:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.5);
+}
+th:hover{
+    background-color: black;
+    color: white;
+}
+tr.one{
+    background-color: blue;
+}
+tr.two{
+    background-color: black;
+}
+body{
+    background-image: url('https://thumbor.forbes.com/thumbor/fit-in/960x/https://www.forbes.com/wheels/wp-content/uploads/2022/11/2023_Audi_S5_DeepDive1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
